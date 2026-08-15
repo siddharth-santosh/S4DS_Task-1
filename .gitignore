@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Large source 3D assets
+public/models/manhattan_heavy.glb
+public/models/*_heavy.*
+*.glb.bak
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +27,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+public/models/manhattan_heavy.glb
